@@ -1,5 +1,6 @@
-Jai Shree Mataji
-
+GOD
+=>it contain Some useful library installation
 npx create-react-app {}
 npm install @material-ui/core
-npm install @material-ui/icons
+-->icons
+
