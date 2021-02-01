@@ -4,13 +4,14 @@ import Button from '@material-ui/core/Button';
 import AppsIcon from '@material-ui/icons/Apps';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import PlaylistAddIcon from '@material-ui/icons/PlaylistAdd';
+import Login from '../Login/Login';
 
 function Header() {
     return (
         <div className="header">
             <div className="header__Name">
                 <Button>
-                    Music
+                    ᗩȠuടℌⓚ
                     {/* <AppsIcon/> */}
                 </Button>
             </div>
@@ -26,9 +27,7 @@ function Header() {
                 </Button> 
             </div>
             <div className="header__Auth">
-                <Button variant="contained" size="small" color="primary">
-                    Login
-                </Button>
+               <Login/>
             </div>
         </div>
     )
